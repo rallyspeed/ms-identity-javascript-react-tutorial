@@ -13,6 +13,8 @@ import { LogLevel } from '@azure/msal-browser';
 
 const app_id = process.env.APP_ID;
 const tenant_id = process.env.TENANT_ID;
+const storage_name = process.env.STORAGE_NAME;
+
 console.log(app_id);
 console.log(tenant_id);
 
@@ -85,7 +87,7 @@ export const protectedResources = {
  */
 export const storageInformation = {
     accountName: 'msidjsreacttutorial', // storage account name
-    containerName: 'ms-identity-react-c2s2', // storage container name
+    containerName: storage_name, // storage container name
 };
 
 
