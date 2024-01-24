@@ -79,7 +79,7 @@ export const protectedResources = {
  * 
  */
 export const storageInformation = {
-    accountName: 'Enter_Storage_Account_Name', // storage account name
+    accountName: 'msidjsreacttutorial', // storage account name
     containerName: 'ms-identity-react-c2s2', // storage container name
 };
 
